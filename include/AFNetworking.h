@@ -13,6 +13,7 @@
     #import "AFURLRequestSerialization.h"
     #import "AFURLResponseSerialization.h"
     #import "AFSecurityPolicy.h"
+    #import "AFCompatibilityMacros.h"
 
 #if !TARGET_OS_WATCH
     #import "AFNetworkReachabilityManager.h"
@@ -22,6 +23,7 @@
     #import "AFHTTPSessionManager.h"
 
     // UIKit+AFNetworking (headers are internally platform-guarded)
+    #import "UIKit+AFNetworking.h"
     #import "AFAutoPurgingImageCache.h"
     #import "AFImageDownloader.h"
     #import "UIActivityIndicatorView+AFNetworking.h"
