@@ -37,11 +37,11 @@ let package = Package(
         .target(
             name: "AFNetworking",
             path: ".",
-            sources: ["AFNetworking", "UIKit+AFNetworking"],
             exclude: [
                 "Example", "Tests", "Framework", "fastlane",
                 ".github", "AFNetworking.xcodeproj", "AFNetworking.xcworkspace"
             ],
+            sources: ["AFNetworking", "UIKit+AFNetworking"],
             publicHeadersPath: "include"
         )
     ]
